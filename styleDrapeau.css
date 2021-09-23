@@ -1,0 +1,35 @@
+/*Baslik tasarimi yapildi*/
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+    text-align: center;
+}
+
+
+/*section bolumunde bayragin ebat ve background rengi verildi*/
+section{
+    
+    width: 320px;
+    height: 320px;
+    background-color: red;
+}
+
+/*vertical olan div in pozisyon renk ve ebatlari belirlendi*/
+div.vertical{
+    height: 60px;
+    width: 200px;
+    background-color:white;
+    position: relative;
+    top: 130px;
+    left: 60px;
+}
+
+/*horizontal olan div in pozisyon renk ve ebatlari belirlendi*/
+div.horizontal{
+    height: 200px;
+    width: 60px;
+    background-color: white;
+    position: relative;
+    left: 130px;
+    
+}
